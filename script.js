@@ -1,4 +1,4 @@
-const section = document.getElementById("section");
+const content = document.getElementById("content");
 const homeBtn = document.getElementById("home");
 const aboutBtn = document.getElementById("about");
 
@@ -10,7 +10,7 @@ const requestPage = (e) => {
       .then((res) => res.text())
       .then((html) => {
         console.log(html);
-        section.innerHTML = html;
+        content.innerHTML = html;
       })
       .catch(() => {
         console.error("Ocorreu um erro ao tentar obter o arquivo html");
@@ -21,7 +21,7 @@ const requestPage = (e) => {
   fetch("pages/home.html")
     .then((res) => res.text())
     .then((html) => {
-      section.innerHTML = html;
+      content.innerHTML = html;
     })
     .catch(() => {
       console.error("Ocorreu um erro ao tentar obter o arquivo html");

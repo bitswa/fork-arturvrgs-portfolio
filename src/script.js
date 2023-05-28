@@ -13,7 +13,7 @@ const requestPage = (e) => {
   }
 
   if (id.includes("about")) {
-    fetch("pages/about.html")
+    fetch("src/pages/about.html")
       .then((res) => res.text())
       .then((html) => {
         content.innerHTML = html;
@@ -26,7 +26,7 @@ const requestPage = (e) => {
     return;
   }
 
-  fetch("pages/home.html")
+  fetch("src/pages/home.html")
     .then((res) => res.text())
     .then((html) => {
       content.innerHTML = html;

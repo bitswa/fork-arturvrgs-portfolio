@@ -2,7 +2,7 @@
 
 Meu portfólio utilizando os conhecimentos que adquiri nos cursos de HTML e CSS da Alura
 
-![Preview](https://github.com/arturvrgs/portfolio/blob/master/preview.png)
+![preview](https://github.com/arturvrgs/portfolio/blob/main/preview.png)
 
 ## Design
 
